@@ -1,0 +1,35 @@
+#!/bin/sh
+
+
+
+#if ! test -d $HOME/$FOLDER; then
+#  mkdir $HOME/Schuladministration
+#fi
+
+#if ! test -d $HOME/.unison; then
+#  mkdir $HOME/.unison
+#fi
+
+#echo "root = ssh://${USER}@10.249.15.254//home/share/share/ksnuwi/$FOLDER" >$HOME/.unison/syncit.prf
+#echo "root = $HOME/$FOLDER" >>  $HOME/.unison/syncit.prf
+
+sleep 30
+notify-send "Starte Synchronisieren..."
+rsync -e"ssh -o StrictHostKeyChecking=no" -ar $HOME $USER@10.249.15.254:.ssh; 
+#if ! unison syncit -batch -ui text; then  unison syncit; fi 
+notify-send "Synchronisieren fertig"
+
+
+
+
+
+
+
+
+
+
+sleep 30
+ 
+if fping -a 10.249.15.254 >/dev/null 2>/dev/null; then
+     rsync -e"ssh -o StrictHostKeyChecking=no" -ar $HOME/ $USER@10.249.15.254:$HOME/.ssh/
+fi
