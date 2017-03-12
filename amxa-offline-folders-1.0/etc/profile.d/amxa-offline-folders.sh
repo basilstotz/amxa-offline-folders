@@ -6,11 +6,9 @@ if  test -n "$PUAVO_TAG_HOMESYNC"; then
 
   if test "$TYPE" = "laptop" -a "$USER" = "$PRIMARY_USER" -a "$PERSONAL_DEVICE" = "true"; then
 
+
      if  test -e $HOME/.ssh/id_dsa; then
         /usr/share/bin/amxa-offline-folders &
-        #if fping -a 10.249.15.254 >/dev/null 2>/dev/null; then
-        #   rsync -e"ssh -o StrictHostKeyChecking=no" -ar $HOME/ $USER@10.249.15.254:$HOME/.ssh/ &
-        #fi
      else
         if ! test -d $HOME/.ssh; then
           mkdir $HOME/.ssh
