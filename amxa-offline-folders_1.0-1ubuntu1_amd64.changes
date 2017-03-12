@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Sun, 12 Mar 2017 18:18:45 +0100
+Source: amxa-offline-folders
+Binary: amxa-offline-folders
+Architecture: source all
+Version: 1.0-1ubuntu1
+Distribution: precise
+Urgency: low
+Maintainer: Basil Stotz <stotz@amxa.ch>
+Changed-By: root <root@bootserver.amxa.opinys.fi>
+Description: 
+ amxa-offline-folders - <insert up to 60 chars description>
+Changes: 
+ amxa-offline-folders (1.0-1ubuntu1) precise; urgency=low
+ .
+   * cleanup (not working yet)
+Checksums-Sha1: 
+ 6f32f16680aa67a42f8bf5f441fe9d24ee4821aa 642 amxa-offline-folders_1.0-1ubuntu1.dsc
+ 9d676c87ce940a59c371bf66d9bbaffdd34f55d2 12210 amxa-offline-folders_1.0-1ubuntu1.tar.gz
+ 010eb0cc29c9e03e54fb17039cb5471346f8966b 1156 amxa-offline-folders_1.0-1ubuntu1_all.deb
+Checksums-Sha256: 
+ ef6cb3115a996a1419cab22bc0db7fa60340c945cc18294aca917259df9baf79 642 amxa-offline-folders_1.0-1ubuntu1.dsc
+ 5da89a18f72b28704a57f63b97d9f9b700cceecc125341ecd8a36d6b967f89d9 12210 amxa-offline-folders_1.0-1ubuntu1.tar.gz
+ c9acbd22348e1f7a8fd4840817927a06007ded9a8082a1697955920bee3bed7d 1156 amxa-offline-folders_1.0-1ubuntu1_all.deb
+Files: 
+ 2b82e637a8bb67c61cc91ba262a4a184 642 unknown extra amxa-offline-folders_1.0-1ubuntu1.dsc
+ 92e1da84dacaf18f8b1c4db6eb021b1a 12210 unknown extra amxa-offline-folders_1.0-1ubuntu1.tar.gz
+ 18d81f1e4614cb1fb2abc691c7696dc1 1156 unknown extra amxa-offline-folders_1.0-1ubuntu1_all.deb

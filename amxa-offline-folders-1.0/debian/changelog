@@ -1,3 +1,9 @@
+amxa-offline-folders (1.0-1ubuntu1) precise; urgency=low
+
+  * cleanup (not working yet)
+
+ -- root <root@bootserver.amxa.opinys.fi>  Sun, 12 Mar 2017 18:18:45 +0100
+
 amxa-offline-folders (1.0-1) unstable; urgency=low
 
   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
